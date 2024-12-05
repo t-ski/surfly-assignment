@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "main": "./server/app/app.js",
+  "scripts": {
+    "compile": "npx tsc --project ./server/tsconfig.debug.json",
+    "compile:watch": "npm run compile -- --watch",
+    "build": "rm -rf ./server/app/ && rm -rf ./server/types/ && npx tsc --project ./server/tsconfig.build.json",
+    "lint": "npx eslint ./server/src/*.ts",
+    "lint:fix": "npx eslint --fix ./server/src/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app/app.js"
+  },
+  "dependencies": {
+    "mrmime": "^2.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@types/ws": "^8.5.13",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "typescript-eslint": "^7.8.0"
+  }
+}

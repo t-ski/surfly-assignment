@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2",
+    "vite": "^6.0.1",
+    "vite-plugin-image-optimizer": "^1.1.8"
+  }
+}

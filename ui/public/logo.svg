@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="313.784" y1="-500" x2="313.784" y2="-127.568" id="gradient-0" gradientTransform="matrix(1.228498, 0, 0, 1.228498, -156.717194, 156.717056)">
+      <stop offset="0" style="stop-color: rgb(94.902% 73.333% 1.9608%)"/>
+      <stop offset="1" style="stop-color: rgb(255, 255, 255); stop-opacity: 0.5;"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="205.71" y1="56.563" x2="205.71" y2="362.621" id="gradient-2" gradientTransform="matrix(1.494917, 0, 0, 1.494917, -36.284836, -584.555847)">
+      <stop offset="0" style="stop-color: rgb(84.314% 14.902% 21.961%)"/>
+      <stop offset="1" style="stop-color: rgb(255, 110, 160);"/>
+    </linearGradient>
+  </defs>
+  <ellipse style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 50px; fill: url(&quot;#gradient-0&quot;); fill-opacity: 0.5;" cx="228.766" cy="-228.766" rx="228.766" ry="228.766" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+  <ellipse style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 50px; fill: url(&quot;#gradient-2&quot;); fill-opacity: 0.5;" cx="271.234" cy="-271.234" rx="228.766" ry="228.766" transform="matrix(1, 0, 0, -1, 0, 0)"/>
+</svg>

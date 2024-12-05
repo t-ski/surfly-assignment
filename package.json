@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "name": "collaborative-drawing-app",
+    "version": "0.1.0",
+    "main": "./server/app/app.js",
+    "scripts": {
+      "prepare": "npx husky",
+      "lint": "npx eslint ./**/src/**/*.ts",
+      "lint:fix": "npx eslint --fix ./**/src/**/*.ts"
+    },
+    "devDependencies": {
+      "husky": "^9.0.11",
+      "lint-staged": "^15.2.2",
+      "prettier": "^3.2.5"
+    }
+  }
+  

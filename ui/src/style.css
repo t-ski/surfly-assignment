@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#app {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+
+/* CUSTOM PROPERTIES */
+:root {
+	--color-primary: #D72638;
+	--color-secondary: #F2BB05;
+	--color-accent: #FFCBDD;
+	--color-fg--dark: #0D1321;
+	--color-fg--light: #FFFFFF;
+	--color-fg--gray: #696B73;
+	--color-bg--light: #F9FBFF;
+	--color-bg--gray: #EFF2F6;
+	--color-bg--dark: #222227;
+}
+
+
+/* CUSTOM DEFAULTS */
+
+html {
+	background-color: var(--color-bg--light);
+	color: var(--color-fg--dark);
+	font-family: "Roboto";
+}
+
+a {
+	color: var(--color-primary);
+}
+
+header, footer {
+	a {
+		color: inherit;
+	}
+}
+
+main {
+	flex: 1 0 0;
+}
+
+
+/* CUSTOM UTILITIES */
+
+p.subtle {
+	color: var(--color-fg--gray)
+}
+
+
+/* CUSTOM COMPONENTS */
+
+.header {
+	background-color: var(--color-bg--gray);
+}
+
+.footer {
+	background-color: var(--color-bg--dark);
+	color: var(--color-fg--light);
+}
